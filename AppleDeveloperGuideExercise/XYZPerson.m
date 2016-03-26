@@ -10,9 +10,10 @@
 
 @implementation XYZPerson
 
-- (void)sayHello {
-    NSLog(@"Hello, world!");
+-(void)sayHello{
+    NSLog(@"Hello %@ %@", _firstName, _lastName);
 }
+
 
 -(void)saySomething: (NSString*)greeting {
     NSLog(@"%@", greeting);
