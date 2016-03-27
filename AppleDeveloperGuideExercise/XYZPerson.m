@@ -17,6 +17,7 @@
 
 -(void)saySomething: (NSString*)greeting {
     NSLog(@"%@", greeting);
+    NSLog(@"It works!");
 }
 
 
